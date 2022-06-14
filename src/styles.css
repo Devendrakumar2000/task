@@ -1,0 +1,33 @@
+*{margin:0;
+    padding:0;
+}
+header{
+    width:100%;
+    background-color: red;
+  }
+  .navs{
+    display:flex;
+    flex-direction: row;
+  }
+  .navbar{
+    display:flex;
+    justify-content: space-between;
+  }
+  .footer{
+   position: absolute;
+    width:100%;
+    background-color: red;
+    bottom: 0px;
+  }
+  .banner{
+    margin:100px 20px;justify-content: space-between;
+    display:flex;
+  }
+  .card{
+    border:2px solid black;
+    display:flex;height: 200px;
+    width:300px;align-items: center;
+    flex-direction: column;row-gap: 20px;
+  }
+  
+  
